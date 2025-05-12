@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqadeveloper</value>
-    <value name="createdDate">1747031111980</value>
-    <value name="lastModifiedDate">1747031111980</value>
+    <value name="lastModifiedBy">siqadeveloper</value>
+    <value name="lastModifiedDate">1747031176642</value>
     <value name="displayName">gv</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,13 +70,16 @@
         <array name="mapSet" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="field">/key;1;0</value>
-            <value name="value">GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986</value>
+            <value name="value">GV2</value>
             <Boolean name="variableSubstitution">false</Boolean>
             <Boolean name="overwrite">true</Boolean>
             <Boolean name="globalVariables">false</Boolean>
           </record>
         </array>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
