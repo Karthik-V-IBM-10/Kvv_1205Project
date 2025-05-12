@@ -38,40 +38,6 @@
             <value name="field_usereditable">false</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">1</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">t3</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
           <value name="field_name">t2</value>
           <value name="field_type">string</value>
           <value name="field_dim">0</value>
@@ -96,23 +62,6 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
-        <record javaclass="com.wm.util.Values">
-          <value name="node_type">field</value>
-          <value name="node_subtype">unknown</value>
-          <value name="node_comment"></value>
-          <record name="node_hints" javaclass="com.wm.util.Values">
-            <value name="field_largerEditor">false</value>
-            <value name="field_password">false</value>
-            <value name="field_usereditable">false</value>
-          </record>
-          <value name="is_public">false</value>
-          <value name="field_name">2</value>
-          <value name="field_type">string</value>
-          <value name="field_dim">0</value>
-          <value name="nillable">true</value>
-          <value name="form_qualified">false</value>
-          <value name="is_global">false</value>
-        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -131,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">siqadeveloper</value>
-    <value name="lastModifiedDate">1747031348995</value>
+    <value name="lastModifiedDate">1747031421016</value>
     <value name="displayName">gv</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -154,10 +103,9 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <array name="mapSet" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
+            <value name="data">GV2</value>
             <value name="field">/key;1;0</value>
-            <value name="value">GV2</value>
-            <Boolean name="variableSubstitution">false</Boolean>
-            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="variable">false</Boolean>
             <Boolean name="globalVariables">false</Boolean>
           </record>
         </array>
@@ -185,14 +133,14 @@
         <number name="lineNumberForDebug" type="Long">2</number>
         <array name="mapSet" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
+            <value name="data">GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986</value>
             <value name="field">/key;1;0</value>
-            <value name="value">GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986</value>
-            <Boolean name="variableSubstitution">false</Boolean>
-            <Boolean name="overwrite">true</Boolean>
+            <Boolean name="variable">false</Boolean>
             <Boolean name="globalVariables">false</Boolean>
           </record>
         </array>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
       <record name="/2" javaclass="com.wm.util.Values">
         <value name="itemType">CONTROLS</value>
@@ -220,10 +168,6 @@
           <value name="serviceName">pub.globalVariable:getGlobalVariable</value>
           <value name="transformerSupport">true</value>
         </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">globalVariable</value>
-          <value name="groupDisplayName">GlobalVariable</value>
-        </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
@@ -235,10 +179,6 @@
           <value name="serviceName">pub.globalVariable:getGlobalVariable</value>
           <value name="transformerSupport">true</value>
         </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">globalVariable</value>
-          <value name="groupDisplayName">GlobalVariable</value>
-        </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
       </record>
@@ -249,10 +189,6 @@
           <value name="displayName">debugLog</value>
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">true</value>
-        </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">flow</value>
-          <value name="groupDisplayName">Flow</value>
         </record>
         <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
         </array>
