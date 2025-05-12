@@ -440,8 +440,14 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">t1</value>
         <value name="field_type">string</value>
@@ -451,8 +457,14 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">field</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">t2</value>
         <value name="field_type">string</value>
@@ -551,12 +563,6 @@
   <!-- nodes -->
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/key;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -578,12 +584,6 @@
   <!-- nodes -->
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/key;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">GV2</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -605,12 +605,6 @@
   <!-- nodes -->
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="true" FIELD="/message;1;0">
-  <DATA ENCODING="XMLValues" I18N="true">
-
-<Values version="2.0">
-  <value name="xml">%GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986%</value>
-</Values>
-</DATA>
 </MAPSET>
 </MAP>
 
@@ -628,7 +622,7 @@
 </MAPDELETE>
 </MAP>
 
-<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
+<INVOKE NAME="Flow" SERVICE="pub.flow:debugLog" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
