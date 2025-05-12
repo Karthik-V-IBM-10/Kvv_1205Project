@@ -616,11 +616,11 @@
 
   <!-- nodes -->
 
-<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="true" GLOBALVARIABLES="true" FIELD="/message;1;0">
+<MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/message;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">%GV1dsfdsgfsdgfdsgfdshbgdfs454343262457645374657y6474537645876986%</value>
+  <value name="xml">test string</value>
 </Values>
 </DATA>
 </MAPSET>
